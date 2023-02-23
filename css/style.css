@@ -43,6 +43,23 @@
     font-size: 25px;
 }
 
+.contents{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 60px;
+}
+.card{
+    min-height: 320px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects >h3{
+    text-align: center;
+}
+
 @media (max-width: 900px) {
     #navbar{
         font-size: medium;
